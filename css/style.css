@@ -92,7 +92,7 @@ a:hover {
     text-decoration: none;
     position: fixed;
     bottom: 24px;
-    right: 3%;
+    right: 0%;
     overflow: hidden;
     z-index: 999;
     width: 42px;
@@ -888,15 +888,15 @@ p.quia {
 /* contact */
 
 .contact-right-grid {
-    background: #2d2d2d;
+    background: #EAF0F1;
     padding: 3em;
 }
-
+/* .contact-right-grid ::placeholder { color: white; font-size: 1.2em; } */
 .contact-right-grid:before {
     content: '';
     position: absolute;
     left: 49.9%;
-    border-right: 19px solid #2d2d2d;
+    border-right: 19px solid #EAF0F1;
     border-top: 18px solid transparent;
     border-bottom: 15px solid transparent;
 }
@@ -904,13 +904,13 @@ p.quia {
 .wthree-contact-form input[type="text"],
 .wthree-contact-form input[type="email"] {
     width: 100%;
-    color: #fff;
+    color: rgb(12, 12, 12);
     background: none;
     outline: none;
     font-size: 16px;
     padding: 12px;
     margin-bottom: 1.2em;
-    border: 1px solid #23d5f5;
+    border: 1px solid rgb(0, 187, 250);
     -webkit-appearance: none;
     display: inline-block;
     letter-spacing: 1px;
@@ -921,10 +921,10 @@ p.quia {
     width: 100%;
     font-size: 1.2em;
     background: none;
-    color: #fff;
+    color: rgb(12, 12, 12);
     outline: none;
     padding: .7em .8em;
-    border: solid 1px #23d5f5;
+    border: solid 1px #4BCFFA;
     min-height: 8em;
     -webkit-appearance: none;
     letter-spacing: 1px;
@@ -946,10 +946,13 @@ p.quia {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     border-radius: 10px;
+    cursor: pointer;
+    
+
 }
 
 .wthree-contact-form input[type="submit"]:hover {
-    background: #000;
+    background: #45CE30;
 }
 
 .contact-map iframe {
@@ -987,7 +990,7 @@ p.quia {
 }
 
 .address-left span.fa {
-    color: #000000;
+    color: #faf4f4;
     font-size: 1.5em;
 }
 
