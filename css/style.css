@@ -301,7 +301,7 @@ h3.about-headagile {
 }
 
 a.btn.btn-primary.button-w3ls {
-    background: #00abff;
+    background:linear-gradient(to bottom, #ff578c, #f3b9cb);;
     border: none;
     font-size: 18px;
     letter-spacing: 1px;
@@ -910,7 +910,7 @@ p.quia {
     font-size: 16px;
     padding: 12px;
     margin-bottom: 1.2em;
-    border: 1px solid rgb(0, 187, 250);
+    border: 1px solid #00abff;
     -webkit-appearance: none;
     display: inline-block;
     letter-spacing: 1px;
@@ -924,7 +924,7 @@ p.quia {
     color: rgb(12, 12, 12);
     outline: none;
     padding: .7em .8em;
-    border: solid 1px #4BCFFA;
+    border: solid 1px #00abff;
     min-height: 8em;
     -webkit-appearance: none;
     letter-spacing: 1px;
@@ -939,8 +939,8 @@ p.quia {
     letter-spacing: 1px;
     margin: 1em 1em 0 0;
     -webkit-appearance: none;
-    background: #23d5f5;
-    border: 1px solid #23d5f5;
+    background: linear-gradient(to left, #3a6186 , #89253e);
+    border: 1px solid #00abff;
     transition: 0.5s all;
     width: 100%;
     -webkit-transition: 0.5s all;
@@ -952,7 +952,8 @@ p.quia {
 }
 
 .wthree-contact-form input[type="submit"]:hover {
-    background: #45CE30;
+    background:#39F; 
+    /* #70c3be; */
 }
 
 .contact-map iframe {
@@ -964,7 +965,7 @@ p.quia {
 }
 
 .contact-leftgrid {
-    background: #23d5f5;
+    background: linear-gradient(to left, #3a6186 , #89253e);
     padding: 4em;
     box-shadow: -2px 2px 8px 2px rgba(19, 18, 18, 0.25);
 }
