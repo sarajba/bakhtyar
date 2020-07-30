@@ -8770,6 +8770,21 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important;
 }
+.services .container .shadow-style:hover{
+  transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 00 3rem -1rem rgba(0,0,0,0.5);
+  overflow: hidden;
+  color: white;
+}
+.services .container .col-lg-6 .d-flex {
+  background-color: #0A79DF;
+  color: white;
+}
+.services .container .mt-3{
+  color: white;
+}
+
+
 
 @media (min-width: 576px) {
   .text-sm-left {
